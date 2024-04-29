@@ -81,7 +81,7 @@ body {
   position: relative; 
   display: flex;
   flex-direction: column;
-  height: 80%;
+  height: 100%;
 }
 
 .router-view-wrapper {
