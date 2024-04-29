@@ -70,7 +70,7 @@ html,
 body {
   height: 100%;
   margin: 0;
-  
+
 }
 
 #app {
@@ -82,8 +82,6 @@ body {
   position: relative; 
   display: flex;
   flex-direction: column;
-
-  
   height: 100%;
 }
 
