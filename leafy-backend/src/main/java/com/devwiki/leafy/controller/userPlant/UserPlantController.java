@@ -66,6 +66,7 @@ public class UserPlantController {
     public ResponseEntity<UserPlantSimpleDto> updateUserPlant(@PathVariable Long userPlantId, @RequestBody UserPlantDto userPlantDto) {
         UserPlantSimpleDto updatedUserPlantDto = userPlantService.updateUserPlant(userPlantId, userPlantDto);
         return new ResponseEntity<>(updatedUserPlantDto, HttpStatus.OK);
+    
     }
 
     /**
