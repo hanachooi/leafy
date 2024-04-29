@@ -9,6 +9,7 @@
     </div>
     <NavBar v-if="isLoggedIn"></NavBar>    
     <div class="router-view-wrapper">
+      
       <router-view></router-view>
     </div>
     <footer class="footer" v-if="isLoggedIn"> 
